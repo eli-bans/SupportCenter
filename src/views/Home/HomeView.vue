@@ -1,5 +1,4 @@
 <script setup>
-import FeedbackForm from "./FeedbackForm.vue";
 import WelcomeMsgSection from "./WelcomeMsgSection.vue";
 import SessionInfo from "./SessionInfo.vue";
 import LanguageToolsSection from "./LanguageToolsSection.vue";
@@ -15,8 +14,5 @@ import LanguageToolsSection from "./LanguageToolsSection.vue";
 
     <!--Add past workshops sessions -->
     <SessionInfo />
-
-    <!-- insert feedback form -->
-    <FeedbackForm />
   </div>
 </template>
