@@ -15,9 +15,7 @@ import ServiceView from "../ServiceView.vue";
     <!--Add past workshops sessions -->
     <SessionInfo />
 
-    <!--insert booking form here-->
-    <ServiceView /> 
-
-   
+    <!-- insert feedback form -->
+    <FeedbackForm />
   </div>
 </template>
