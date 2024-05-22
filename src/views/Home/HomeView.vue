@@ -13,9 +13,13 @@ import ServiceView from "../ServiceView.vue";
     <LanguageToolsSection />
 
     <!--Add past workshops sessions -->
-    <SessionInfo />
+    <!-- <SessionInfo /> -->
 
     <!-- insert feedback form -->
-    <FeedbackForm />
+    <!-- <FeedbackForm /> -->
+
+    <!-- insert service view-->
+    <ServiceView />
+
   </div>
 </template>
