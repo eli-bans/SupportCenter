@@ -15,9 +15,6 @@ const course_and_lang = [
     title: "Web Tech",
   },
   {
-    title: "Rust",
-  },
-  {
     title: "SQL",
   },
   

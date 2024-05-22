@@ -1,5 +1,3 @@
-
-
 <template>
   <div
     class="h-64 w-full text-center flex flex-col text-white justify-center items-center bg-[url(/aboutImg.jpg)] bg-cover bg-center bg-no-repeat">
@@ -12,7 +10,7 @@
     <div>
       <h1 class="text-4xl font-mono py-2">Our Story: From Friendly Hangouts to Your Coding Companion</h1>
       <p class="text-lg">
-        We get it. Struggling through code can feel isolating, especially when you're surrounded by mountains of assignments and deadlines. That's why we created Support Center. It all started in school, where we were a group of friends who constantly supported each other with projects and problem-solving. Our hangout spot, jokingly called the "Support Centre," became a hub for collaboration and learning.
+        We get it. Struggling through code can feel isolating, especially when you're surrounded by mountains of assignments and deadlines. That's why we created Support Center. It all started from feeling overwhelmed with having too many people to tutor by myself. The name came from the support group I have with my friends, where we constantly supported each other with projects and problem-solving.
       </p>
       <p class="text-lg">
         As our programming skills grew, so did our desire to help others. We realized there were many students facing similar challenges, and we wanted to extend the supportive environment we created for ourselves.
@@ -50,4 +48,3 @@
     </div>
   </div>
 </template>
-
