@@ -1,33 +1,7 @@
 <script setup>
 const service_list = [
   {
-    heading: "Code Review Session",
-    options: ["Java", "Python", "SQL", "HTML/CSS", "Golang"],
-    link: "https://cal.com/codereviewshop/meet",
-    tier: "free",
-  },
-  {
-    heading: "Walkthrough Session",
-    options: [
-      "Navigating Github",
-      "Work on my first open source issue",
-      "Publish my code to github",
-      "Deploy my website (Make it available on the internet)",
-      "Consultation on a project design",
-      "Assignment review & pair programming",
-    ],
-    link: "https://cal.com/codereviewshop/walkthrough",
-    tier: "paid",
-  },
-  {
-    heading: "Tutoring Session",
-    options: [
-      "Learn version control systems using git",
-      "Learn the linux command line",
-      "Learn programming fundamentals",
-    ],
-    link: "https://cal.com/codereviewshop/tutoring",
-    tier: "paid",
+    link: "https://cal.com/elikem-bansah-3jg3rs", // using David's Calendly link for now until we have our own
   },
 ];
 </script>
@@ -49,7 +23,7 @@ const service_list = [
         <div class="text-center">
           <a :href="service.link" target="_blank" rel="noreferrer">
             <button
-              class="bg-blue-600 text-white py-3 px-16 text-lg font-semibold rounded-lg"
+              class="bg-rose-600 text-white py-3 px-16 text-lg font-semibold rounded-lg"
             >
               Book
             </button>
@@ -58,12 +32,12 @@ const service_list = [
       </div>
     </div>
 
-    <div class="text-lg text-center my-8 mx-3">
+    <!-- <div class="text-lg text-center my-8 mx-3">
       <p>
         If you like to support our mission, kindly reach out to us via
         <a href="mailto:codereviewshop@gmail.com" class="text-blue-900">email</a
         >.
       </p>
-    </div>
+    </div> -->
   </div>
 </template>

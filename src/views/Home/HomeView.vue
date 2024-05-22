@@ -1,8 +1,7 @@
 <script setup>
-import FeedbackForm from "./FeedbackForm.vue";
 import WelcomeMsgSection from "./WelcomeMsgSection.vue";
-import SessionInfo from "./SessionInfo.vue";
 import LanguageToolsSection from "./LanguageToolsSection.vue";
+import ServiceView from "../ServiceView.vue";
 </script>
 
 <template>
@@ -10,13 +9,15 @@ import LanguageToolsSection from "./LanguageToolsSection.vue";
     <!-- Welcome msg section -->
     <WelcomeMsgSection />
 
-    <!-- Add languages & tools section -->
+    <!-- Courses and Languages -->
     <LanguageToolsSection />
 
     <!--Add past workshops sessions -->
     <SessionInfo />
 
-    <!-- insert feedback form -->
-    <FeedbackForm />
+    <!--insert booking form here-->
+    <ServiceView /> 
+
+   
   </div>
 </template>

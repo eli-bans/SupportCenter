@@ -14,16 +14,16 @@ const router = createRouter({
       name: "About",
       component: () => import("../views/AboutView.vue"),
     },
-    {
-      path: "/services",
-      name: "Services",
-      component: () => import("../views/ServiceView.vue"),
-    },
-    {
-      path: "/timeline",
-      name: "Timeline",
-      component: () => import("../views/Timeline/Timeline.vue"),
-    },
+    // {
+    //   path: "/services",
+    //   name: "Services",
+    //   component: () => import("../views/ServiceView.vue"),
+    // },
+    // {
+    //   path: "/timeline",
+    //   name: "Timeline",
+    //   component: () => import("../views/Timeline/Timeline.vue"),
+    // },
     {
       path: "/:catchAll(.*)*",
       name: "PageNotFound",
@@ -33,7 +33,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, _, next) => {
-  document.title = "CodeReviewShop ~ " + to.name;
+  document.title = "SupportCenter ~ " + to.name;
   next();
 });
 

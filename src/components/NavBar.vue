@@ -5,8 +5,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 
 const navItems = ref([
   { name: "Home", href: "/", current: true },
-  { name: "Services", href: "/services", current: false },
-  { name: "Timeline", href: "/timeline", current: false },
+  // { name: "Services", href: "/services", current: false },
+  // { name: "Timeline", href: "/timeline", current: false },
   { name: "About Us", href: "/about", current: false },
 ]);
 
@@ -19,13 +19,13 @@ function toggleState(item) {
 </script>
 
 <template>
-  <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-gray-600" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button -->
           <DisclosureButton
-            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            class="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-rose-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           >
             <div class="sr-only">Open main menu</div>
             <font-awesome-icon
@@ -48,7 +48,7 @@ function toggleState(item) {
           <div class="flex sm:flex-grow items-center">
             <RouterLink to="/">
               <h3 class="text-white px-2 text-lg font-bold">
-                Code Review Shop
+                Support Center
               </h3>
             </RouterLink>
           </div>
@@ -64,8 +64,8 @@ function toggleState(item) {
                 :aria-label="item.name"
                 :class="[
                   item.current
-                    ? 'bg-gray-900 text-white'
-                    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    ? 'bg-rose-600 text-white'
+                    : 'text-white hover:bg-rose-600 hover:text-white',
                   'rounded-md px-3 py-2 text-sm font-semibold',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
@@ -76,9 +76,9 @@ function toggleState(item) {
                 target="_blank"
                 aria-label="blog"
                 @click="toggleState(null)"
-                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-semibold"
+                class="text-white hover:bg-rose-600 hover:text-white rounded-md px-3 py-2 text-sm font-semibold"
                 aria-current="undefined"
-                >Blog</a
+                >Friend's Blog</a
               >
             </div>
           </div>
@@ -102,7 +102,7 @@ function toggleState(item) {
           :class="[
             item.current
               ? 'bg-gray-900 text-white'
-              : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+              : 'text-white hover:bg-rose-600 hover:text-white',
             'block rounded-md px-3 py-2 text-base font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"
@@ -116,9 +116,9 @@ function toggleState(item) {
           target="_blank"
           href="https://davesaah.hashnode.dev"
           aria-label="blog"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+          class="text-white hover:bg-rose-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           aria-current="undefined"
-          >Blog</a
+          >Friend's Blog</a
         >
       </div>
     </DisclosurePanel>
