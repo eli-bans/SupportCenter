@@ -32,3 +32,6 @@ coverage
 
 # environment variables
 .env
+
+# dist
+.dist
