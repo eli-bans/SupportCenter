@@ -12,7 +12,7 @@ import ServiceView from "../ServiceView.vue";
     <!-- Courses and Languages -->
     <LanguageToolsSection />
 
-    <!--Add past workshops sessions -->
+    <!--Add past works sessions -->
     <!-- <SessionInfo /> -->
 
     <!-- insert feedback form -->

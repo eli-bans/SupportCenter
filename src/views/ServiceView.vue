@@ -35,7 +35,7 @@ const service_list = [
     <!-- <div class="text-lg text-center my-8 mx-3">
       <p>
         If you like to support our mission, kindly reach out to us via
-        <a href="mailto:codereviewshop@gmail.com" class="text-blue-900">email</a
+        <a href="mailto:codereview@gmail.com" class="text-blue-900">email</a
         >.
       </p>
     </div> -->

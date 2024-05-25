@@ -5,7 +5,7 @@ import TimelineItem from './TimelineItem.vue';
 const sessions = [
 {
   org: "Google Developers' Student Club",
-  title: "Git Workshop",
+  title: "Git Work",
   date: "Sept 9, 2023",
   desc: "Touched on the history of git and its relevance. Had hands-on session for students to practice basic git commands such as add, push, pull and commit."
 },
@@ -15,7 +15,7 @@ const sessions = [
 
 <template>
   <div class="relative font-inter antialiased mt-6">
-    <div class="text-center text-4xl">Workshop Sessions Timeline</div>
+    <div class="text-center text-4xl">Work Sessions Timeline</div>
     <div class="text-center py-3 text-slate-500">Data not available yet...</div>
     <!-- main class="relative min-h-fit flex flex-col justify-center overflow-hidden">
       <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">

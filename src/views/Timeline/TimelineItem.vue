@@ -1,8 +1,8 @@
 <script setup>
 defineProps({
   org: String, // organisation
-  title: String, // workshop title
-  date: String, // date workshop took place
+  title: String, // work title
+  date: String, // date work took place
   desc: String, // description
 });
 </script>
